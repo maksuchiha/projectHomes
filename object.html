@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Объект</title>
-<script defer src="./script/object.95a52bf6de8e66561f4b.js"></script><link href="./style/object.640919afcfda78877e9d.css" rel="stylesheet"></head>
+<script defer src="./script/object.a44fcbbee9271311bbd2.js"></script><link href="./style/object.7da150503865626c4e19.css" rel="stylesheet"></head>
 <body>
     <header class="header">
         <div class="container">
@@ -775,7 +775,7 @@
                         <h3 class="home-object__subtitle">
                             Понравился объект? Закажите онлайн просмотр прямо сейчас!
                         </h3>
-                        <a href="#" class="home-object-features__link">онлайн просмотр</a>
+                        <button class="home-object-features__link">онлайн просмотр</button>
                     </div>
                     <button class="text-link home-object-features__show">
                         Показать полный текст
@@ -1399,6 +1399,51 @@
                     </label>
                 </div>
                 <button class="button">подписаться</button>
+            </form>
+        </div>
+    </div>
+    <div class="modal-subscription modal-subscription_object">
+        <div class="modal-subscription__inner">
+            <h2 class="title">
+                ПОЛУЧИТЬ ПОДРОБНУЮ<br>
+                ИНФОРМАЦИЮ ОБ ОБЪЕКТЕ
+                <button class="modal-subscription__close">
+                    <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1.4375 1.4375L20.5625 20.5625" stroke="#828791" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M1.4375 20.5625L20.5625 1.4375" stroke="#828791" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+            </h2>
+            <p class="modal-subscription__text">
+                Для получения подробной информации заполните форму и наш менеджер свяжется с Вами в ближайшее время
+            </p>
+            <form action="#" class="modal-subscription__form modal-subscription__form_gray">
+                <input name="name" placeholder="Ваше имя" aria-label="" type="text">
+                <input name="mail" placeholder="Электронная почта" aria-label="" type="text">
+                <input name="mail" placeholder="Телефон" aria-label="" type="text">
+                <button class="button">получить</button>
+            </form>
+        </div>
+    </div>
+    <div class="modal-subscription modal-subscription_view">
+        <div class="modal-subscription__inner">
+            <h2 class="title">
+                онлайн просмотр
+                <button class="modal-subscription__close">
+                    <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1.4375 1.4375L20.5625 20.5625" stroke="#828791" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M1.4375 20.5625L20.5625 1.4375" stroke="#828791" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+            </h2>
+            <p class="modal-subscription__text">
+                Чтобы заказать онлайн просмотр, заполните форму и наш менеджер свяжется с Вами в ближайшее время
+            </p>
+            <form action="#" class="modal-subscription__form modal-subscription__form_gray">
+                <input name="name" placeholder="Ваше имя" aria-label="" type="text">
+                <input name="mail" placeholder="Электронная почта" aria-label="" type="text">
+                <input name="mail" placeholder="Телефон" aria-label="" type="text">
+                <button class="button">отправить</button>
             </form>
         </div>
     </div>
